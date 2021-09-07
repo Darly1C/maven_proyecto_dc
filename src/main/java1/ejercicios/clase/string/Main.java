@@ -7,6 +7,7 @@ public class Main {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
+		//Taller
 		Scanner teclado = new Scanner(System.in);
 
 		// 1. contains
