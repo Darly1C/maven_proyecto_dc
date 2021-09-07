@@ -1,0 +1,33 @@
+package ejercicios.variables.locales.globales;
+
+public class Pasajero {
+
+	private String nombre;
+	private String apellido;
+	private int edad;
+	// - Variables
+	// dos tipos de variables se clasifican
+	// en función a su alcance:
+
+	// Globales: se declaran a nivel de clase, se dividen en dos:
+	// Instancia._
+	// Estáticas._
+
+	// Locales: se declaran a nivel de métodos
+
+	// - Constructor
+	// - Métodos
+
+	public void reservarVuelo() {
+		this.nombre = "Darly";
+		this.apellido = "Castillo";
+		this.edad = 20;
+		String trayecto = "Londres";
+		trayecto = "Madrid";
+		trayecto = "Amsterdam";
+		String categoriaDeVuelo = "Primera Clase";
+		categoriaDeVuelo = "Clase Económica";
+		categoriaDeVuelo = "Clase Ejecutiva";
+	}
+
+}
