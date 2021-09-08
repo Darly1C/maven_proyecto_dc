@@ -13,7 +13,8 @@ public class MainEstudiante {
 		// jordan es la instancia de la clase Estudiante
 		jordan.setNombre("Jordan");
 		jordan.setCedula("12123165");
-		System.out.println(Estudiante.pais);
+		System.out.println("¿Cuál es el valor del atributo estático?" + Estudiante.pais);
+		System.out.println("¿Cuál es el valor del atributo de instancia?" + jordan.get);
 
 		Estudiante julia = new Estudiante();
 		jordan.setNombre("Julia");

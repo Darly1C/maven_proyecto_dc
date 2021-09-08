@@ -5,6 +5,8 @@ public class Pasajero {
 	private String nombre;
 	private String apellido;
 	private int edad;
+	public static String pais = "ECUADOR";
+	
 	// - Variables
 	// dos tipos de variables se clasifican
 	// en función a su alcance:
