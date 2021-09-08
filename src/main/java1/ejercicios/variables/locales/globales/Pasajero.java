@@ -10,8 +10,8 @@ public class Pasajero {
 	// en función a su alcance:
 
 	// Globales: se declaran a nivel de clase, se dividen en dos:
-	// Instancia._
-	// Estáticas._
+	// Instancia._Son variables que pertenecen a la instancia
+	// Estáticas._Pertenecen a una clase
 
 	// Locales: se declaran a nivel de métodos
 

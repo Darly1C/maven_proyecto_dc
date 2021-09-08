@@ -2,8 +2,11 @@ package ejercicios.de.busqueda.metodos.string;
 
 public class Estudiante {
 
-	protected String nombre;
-	protected String cedula;
+	private String nombre;
+	private String cedula;
+	public static String pais = "ECUADOR";
+
+	// Método SET Y GET
 
 	public String getNombre() {
 		return nombre;
