@@ -1,12 +1,15 @@
 package ejercicios.variables.locales.globales;
 
+import ejercicios.de.busqueda.metodos.string.Estudiante;
+
 public class Pasajero {
 
 	private String nombre;
 	private String apellido;
 	private int edad;
 	public static String pais = "ECUADOR";
-	
+	public static String provincia = "Pichincha";
+
 	// - Variables
 	// dos tipos de variables se clasifican
 	// en función a su alcance:
